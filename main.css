@@ -1,23 +1,49 @@
+
 html, body { 
     background-color: rgb(68, 3, 105);
     color: rgb(242, 228, 250);
+    margin: 0;
+    min-width: 320px;
+    padding: 0;
     text-align: center;
+}
+
+.description {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.dropdown {
+
 }
 
 .form-backer {
     background-color: rgb(242, 228, 250);
     border-radius: 5px;
+    box-shadow: 0px 0px 2px 1px white;
     color: rgb(68, 3, 105);
-    box-shadow: 0px -2px 2px 1px white;
-    margin: auto;
+    /*height: 700px;*/
+    margin: 0 auto;
     max-width: 850px;
+    min-height: 500px;
     width: 80%;
+}
+
+.input-field {
+    border: 1px solid rgb(68, 3, 105);
+    border-radius: 2px;
+    height: 18px;
+    margin: 12px;
+    padding: 6px;
+    width: 300px;
+
 }
 
 .labels {
     display: inline-block;
     text-align: right;
-    width: 45%;
+    width: 20%;
+    vertical-align: middle;
 }
 
 .survey-row {
@@ -29,8 +55,30 @@ html, body {
     display: inline-block;
     text-align: left;
     width: 45%;
+    vertical-align: middle;
+}
+
+#dropdown {
+    border: 1px solid rgb(68, 3, 105);
+    border-radius: 2px;
+    margin: 12px;
+    text-align: right;
 }
 
 #title {
     color: whitesmoke;
+}
+
+@media screen and (max-width: 520px) {
+    .labels {
+        text-align: center;
+        width: 100%;
+    }
+    .input-field {
+        text-align: center;
+        width: 80%;
+    }
+    .text-input {
+        width: 100%;
+    }
 }
