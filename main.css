@@ -75,10 +75,17 @@ html, body {
         width: 100%;
     }
     .input-field {
+        margin: 12px 12px 12px 24px;
         text-align: center;
         width: 80%;
     }
     .text-input {
         width: 100%;
+    }
+
+    #dropdown {
+        display: block;
+        margin: 12px auto;
+        width: 161px;
     }
 }
