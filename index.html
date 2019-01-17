@@ -8,7 +8,7 @@
         <h1 id="title">freeCodeCamp Survey</h1>
         <div class="form-backer">
             <p class="description">Your input can help improve freeCodeCamp!</p>
-            <div id="survey-form">
+            <form id="survey-form">
                 <div class="survey-row">
                     <div class="labels">
                         <label for="name" id="name-label">
@@ -69,7 +69,34 @@
                                         <li class="radio"><input name="daysPerWeek" value="4"  type="radio" class="daysPerWeek" ><label>6-7</label></li>
                         </div>
                 </div>
-            </div>
+                <div class="survey-row">
+                        <div class="labels">
+                            <label for="daysPerWeek" id="radio-label">
+                                What type of development do you want focus on? 
+                            </label>
+                        </div>
+                        <div class="text-input">
+                                <ul id="devpref" style="list-style: none;">
+                                        <li class="checkbox"><label><input name="devpref" value="1" type="checkbox" class="devpref">Front-end</label></li>
+                                        <li class="checkbox"><label><input name="devpref" value="2" type="checkbox" class="devpref">Back-end Projects</label></li>
+                                        <li class="checkbox"><label><input name="devpref" value="3" type="checkbox" class="devpref">Data Visualization</label></li>
+                                        <li class="checkbox"><label><input name="devpref" value="4" type="checkbox" class="devpref">Full-Stack</label></li>
+                        </div>
+                </div>
+                <div class="survey-row">
+                        <div class="labels">
+                            <label for="daysPerWeek" id="radio-label">
+                                Additional Comments?
+                            </label>
+                        </div>
+                        <div class="text-input">
+                            <textarea id="comment-box" name="comments" placeholder="Additional Comments.."></textarea>
+                        </div>
+                </div>
+                <div class="survey-row">
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+            </form>
         </div>
     </body>
 </html>

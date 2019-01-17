@@ -8,6 +8,16 @@ html, body {
     text-align: center;
 }
 
+button {
+    background-color: rgb(68, 3, 105);
+    border-radius: 7px;
+    color: rgb(242, 228, 250);
+    font-size: 1.2em;
+    height: 45px;
+    margin: 10px 0 20px 0;
+    width: 140px;
+}
+
 li {
     margin: 5px 0;
 }
@@ -64,6 +74,12 @@ ul {
     text-align: left;
     width: 45%;
     vertical-align: middle;
+}
+
+#comment-box {
+    height: 100px;
+    margin: 12px 12px;
+    width: 300px;
 }
 
 #dropdown {
