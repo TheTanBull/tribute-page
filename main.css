@@ -8,9 +8,17 @@ html, body {
     text-align: center;
 }
 
+li {
+    margin: 5px 0;
+}
+
+ul {
+    padding: 0 10px;
+}
+
 .description {
     margin: 0;
-    padding: 10px 0;
+    padding: 10px;
 }
 
 .dropdown {
